@@ -1,0 +1,12 @@
+.about_me_wrapper {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+}
+.about_me_wrapper p {
+  line-height: 0.4;
+}
+.about_me_text {
+  margin-left: 10px;
+}

@@ -1,0 +1,19 @@
+.posts_wrapper {
+  margin-top: 40px;
+}
+
+.posts_wrapper textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #eee;
+  padding: 7px;
+}
+.posts_wrapper button {
+  float: right;
+  margin: 10px 0;
+}
+
+.posts {
+  margin-top: 100px;
+}
