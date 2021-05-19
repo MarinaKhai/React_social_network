@@ -4,7 +4,7 @@ import AboutMe from './AboutMe/aboutMe';
 
 const Profile = () => {
     return (
-        <div className={styles.content}>
+        <div>
           <AboutMe />
           <Posts />
         </div>

@@ -9,5 +9,8 @@
 .nav a:hover {
     color: #aaa;
 }
-  
+
+.nav_link_active {
+    color: #aaa;
+}
   

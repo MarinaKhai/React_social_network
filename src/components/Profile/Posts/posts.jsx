@@ -10,9 +10,9 @@ const Posts = (props) => {
         <button type="submit">Send</button>
       </div>
       <div className={styles.posts}>
-        <Post message="Hello! My running challenge lasts for 3 weeks already! Hope to turn it to habbit =)"/>
+        <Post message="Hello! My running challenge lasts for 3 weeks already! Hope to turn it to habbit =)" likes_count="17" />
         
-        <Post message="What I'm reading now? Alexandre Dumas The Count of Monte Cristo. It's so captivating! Can't keep my hands off the book."/>
+        <Post message="What I'm reading now? Alexandre Dumas The Count of Monte Cristo. It's so captivating! Can't keep my hands off the book." likes_count="24"/>
       </div>
     </div>
   )

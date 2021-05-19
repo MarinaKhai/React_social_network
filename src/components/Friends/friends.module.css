@@ -1,0 +1,16 @@
+.friendsPage_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 20px;
+}
+
+.friend_wrapper {
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: #eee;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}

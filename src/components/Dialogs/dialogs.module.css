@@ -1,0 +1,23 @@
+.userName a {
+    color: #000;
+}
+
+.userName a.active {
+    font-weight: bold;
+}
+
+.chatsPage_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    padding: 15px;
+}
+
+.userItem {
+    margin-top: 30px;
+}
+
+.message {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 8px;
+}
