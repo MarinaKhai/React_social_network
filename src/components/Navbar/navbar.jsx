@@ -5,25 +5,25 @@ const Navbar = () => {
     return (
         <nav className={styles.nav}>
             <div>
-                <NavLink activeClassName={styles.nav_link_active} to="/profile">&#128519; Profile</NavLink>
+                <NavLink activeClassName={styles.nav_link_active} to="/profile">Profile</NavLink>
             </div>
             <div>
-                <NavLink activeClassName={styles.nav_link_active} to="/friends">&#128109; Friends</NavLink>
+                <NavLink activeClassName={styles.nav_link_active} to="/friends">Friends</NavLink>
             </div>
             <div>
-                <NavLink activeClassName={styles.nav_link_active} to="/dialogs">&#128140; Messages</NavLink>
+                <NavLink activeClassName={styles.nav_link_active} to="/dialogs">Messages</NavLink>
             </div>
             <div>
-                <NavLink activeClassName={styles.nav_link_active} to="/news">	&#128250; News</NavLink>
+                <NavLink activeClassName={styles.nav_link_active} to="/news">News</NavLink>
             </div>
             <div>
-                <NavLink activeClassName={styles.nav_link_active} to="/images">&#128102; Images</NavLink>
+                <NavLink activeClassName={styles.nav_link_active} to="/images">Images</NavLink>
             </div>
             <div>
-                <NavLink activeClassName={styles.nav_link_active} to="/music">&#128239; Music</NavLink>
+                <NavLink activeClassName={styles.nav_link_active} to="/music">Music</NavLink>
             </div>
             <div>
-                <NavLink activeClassName={styles.nav_link_active} to="/settings">&#128296; Settings</NavLink>
+                <NavLink activeClassName={styles.nav_link_active} to="/settings">Settings</NavLink>
             </div>
         </nav>
     );
